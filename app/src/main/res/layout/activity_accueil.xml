@@ -12,7 +12,7 @@
       android:layout_width="match_parent"
       android:layout_height="200dp"
       android:background="@color/colorAccent"
-      android:text="@string/for_more_information_about_the_pandamic_situation_in_tunisia_visit_this_site"
+      android:text="@string/moretext"
       android:textSize="10pt"
      android:textAlignment="center"
       />
@@ -30,7 +30,7 @@
         android:layout_height="wrap_content"
        android:layout_below="@+id/text1"
         android:layout_marginTop="30dp"
-        android:text="About virus "
+        android:text="@string/about_virusButton"
         android:textSize="10pt"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="false"
@@ -49,7 +49,7 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="false"
         android:layout_marginTop="30dp"
-        android:text="Symptoms "
+        android:text="@string/symptoms"
         android:textSize="10pt"
 
         />
@@ -59,7 +59,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/aboutButton"
         android:layout_marginTop="30dp"
-        android:text="How to protect "
+        android:text="@string/how_to_protect"
         android:textSize="10pt"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="false"
@@ -75,7 +75,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/howButton"
         android:layout_marginTop="30dp"
-        android:text="Home Isolation rules "
+        android:text="@string/home_isolation_rules"
         android:textSize="10pt"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="false"
@@ -94,7 +94,7 @@
       android:layout_alignParentBottom="false"
       android:layout_marginTop="30dp"
       android:layout_marginRight="2dp"
-      android:text="Things to do "
+      android:text="@string/things_to_do"
 
       android:textSize="10pt" />
 

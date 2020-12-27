@@ -170,5 +170,9 @@ Méditer</string>
     <string name="choose_language">Choisir une langue:</string>
     <string name="fran_ais">Français</string>
     <string name="english">English</string>
+    <string name="Email"> Email </string>
+    <string name="go_to">GO</string>
+    <string name="phone_number">phone number</string>
+    <string name="have_account">Already have an account? Login</string>
 
 </resources>

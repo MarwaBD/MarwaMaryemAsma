@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+
+
+    <TextView
+        android:id="@+id/lang"
+        android:textColor="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_language"
+        android:textSize="35dp"
+        android:layout_margin="50dp"
+
+        />
+    <RadioButton
+        android:id="@+id/fr"
+        android:layout_below="@+id/lang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fran_ais"
+        android:textSize="40dp"/>
+    <RadioButton
+        android:layout_below="@+id/fr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/english"
+        android:textSize="40dp"/>
+
+
+
+
+</RelativeLayout>

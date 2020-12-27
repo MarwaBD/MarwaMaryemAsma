@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+
+
+    <TextView
+        android:textColor="@color/colorAccent"
+        android:id="@+id/P1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/how_to_protect_from_coronavirus"
+        android:textSize="35dp"
+
+
+        />
+
+    <TextView
+        android:id="@+id/P2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/advice1"
+        android:layout_below="@+id/P1"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+
+        />
+    <TextView
+        android:id="@+id/P3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/advice2"
+        android:layout_below="@+id/P2"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+
+        />
+    <TextView
+        android:id="@+id/P4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/advice3"
+        android:layout_below="@+id/P3"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        />
+
+
+    <TextView
+        android:id="@+id/P5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/advice4"
+        android:layout_below="@+id/P4"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+
+        />
+    <TextView
+        android:id="@+id/P6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/advice5"
+        android:layout_below="@+id/P5"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+
+        />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/advice6"
+        android:layout_below="@+id/P6"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+
+        />
+
+
+
+</RelativeLayout>

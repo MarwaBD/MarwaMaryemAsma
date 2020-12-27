@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+
+
+    <TextView
+        android:textColor="@color/colorAccent"
+        android:id="@+id/h1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/home_isolation"
+        android:textSize="35dp"
+
+
+        />
+
+    <TextView
+        android:id="@+id/h2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rule1"
+        android:layout_below="@+id/h1"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+
+        />
+    <TextView
+        android:id="@+id/h3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rule2"
+        android:layout_below="@+id/h2"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+
+        />
+    <TextView
+        android:id="@+id/h4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rule3"
+        android:layout_below="@+id/h3"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        />
+
+
+    <TextView
+        android:id="@+id/h5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rule4"
+        android:layout_below="@+id/h4"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+
+        />
+    <TextView
+        android:id="@+id/h6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rule5"
+        android:layout_below="@+id/h5"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+
+        />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rule6"
+        android:layout_below="@+id/h6"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+
+        />
+
+
+
+</RelativeLayout>
